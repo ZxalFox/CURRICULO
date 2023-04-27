@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    font-family: "Titillium Web", Arial, sans-serif;
+    color: #141414;
+}
+
+h1, h2, h3, p{
+    margin: 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.subtitulo{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,103 @@
+.introducao{
+    max-width: 1200px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 100px;
+    align-items: center;
+    position: relative;
+}
+
+.introducao h1{
+    font-size: 4rem;
+    line-height: 1.25;
+    margin-bottom: 30px;
+}
+
+.foto{
+    justify-self: end;
+    height: auto;
+}
+
+.botao1{
+    width: fit-content;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 12px;
+    gap: 5px;
+    margin-right: 15px;
+    margin-top: 10px;
+    background: linear-gradient(180deg, #FFAA47 0%, #E98612 100%);
+    }
+
+.botao2{
+    color: #E98612;
+    width: fit-content;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 12px;
+    gap: 5px;
+    margin-right: 15px;
+    margin-top: 20px;
+    background: linear-gradient(180deg, #4E4E4E 0%, #1E1E1E 100%);
+    }
+
+.lip{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 49px;
+    color: #000;
+    }
+
+.port{
+    margin-top: 100px;
+    display: flex
+}
+
+    .detalhe{
+        display: inline-block;
+    }
+
+@media (max-width: 1000px){
+    .introducao h1{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 700px){
+    .introducao h1{
+        font-size: 2rem;
+    }
+
+    .introducao{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 400px){
+    .introducao h1{
+        font-size: 2rem;
+    }
+
+    .foto{
+        display: none;
+    }
+
+    .introducao{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}
+
+
+
